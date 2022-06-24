@@ -1,0 +1,13 @@
+<header>
+        <a href="#" class="logo" style="color: deeppink;"><b><i>YY</i></b></a>
+        <ul class="navigation">
+            {{#if logined}}
+            <li><a href="details">details</a></li>
+             <li><a href="logout">logout</a></li>
+             {{else}}
+            <li><a href="/">Home</a></li>
+            <li><a  href="login">Login</a></li>
+            <li><a href="register">Register</a></li>
+            {{/if}}
+        </ul>
+</header>
